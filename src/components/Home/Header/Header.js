@@ -13,8 +13,8 @@ const Header = () => {
                 <div className=' pt-28 pl-20 md:flex items-end md:items-center md:ml-60'>
                     <div>
                         <p className='font-bold text-cyan-500'>Hello,</p>
-                        <h1 className='text-4xl md:text-5xl font-bold text-sky-400'>I'm Nazmush Shakib</h1>
-                        <p className='font-bold text-gray-400'>Full Stack Developer</p>
+                        <h1 className='text-4xl md:text-5xl font-bold text-sky-400'>I'm Shakib Miah</h1>
+                        <p className='font-bold text-gray-400 mt-2'>Full Stack Web Developer</p>
                         <p></p>
                         <div></div>
                         <span className='btn btn-outline btn-info font-bold my-5'>Hire Me</span>
