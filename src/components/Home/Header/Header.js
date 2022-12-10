@@ -2,7 +2,7 @@ import React from 'react';
 import '../../../App.css';
 import Navber from '../Navber/Navber';
 import programmer2 from '../../../assets/shakib.png'
-
+import { FaLinkedin, FaGithubSquare, FaFacebook } from 'react-icons/fa';
 
 
 const Header = () => {
@@ -15,13 +15,19 @@ const Header = () => {
                         <p className='font-bold text-cyan-500'>Hello,</p>
                         <h1 className='text-4xl md:text-5xl font-bold text-sky-400'>I'm Shakib Miah</h1>
                         <p className='font-bold text-gray-400 mt-2'>Full Stack Web Developer</p>
-                        <p></p>
-                        <div></div>
-                        <span className='btn btn-outline btn-info font-bold my-5'>Hire Me</span>
+
+                        <div className='flex gap-3 mt-4'>
+                            <a target={0} href='https://www.linkedin.com/in/md-shakib-miah-523025230/' className='text-blue-600'><FaLinkedin></FaLinkedin></a>
+                            <a target={0} href='https://github.com/shakibgithub944' className='text-gray-600'><FaGithubSquare></FaGithubSquare></a>
+                            <a target={0} href='https://www.facebook.com/nazmush.shakib.737' className='text-blue-600'><FaFacebook></FaFacebook></a>
+                        </div>
+                        <a href="#contact">
+                            <span className='btn btn-outline btn-info font-bold my-5'>Hire me</span>
+                        </a>
                     </div>
                 </div>
                 <div className='flex items-center md:ml-28'>
-                    <img src={programmer2}  alt="" />
+                    <img src={programmer2} alt="" />
                 </div>
             </div>
         </section>

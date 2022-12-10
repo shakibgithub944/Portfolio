@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <section className='bg-gray-800 py-8 md:py-48'>
+        <section id='skills' className='bg-gray-800 py-8 md:py-48'>
 
             <div className='md:grid md:grid-cols-3 px-4'>
                 <div></div>

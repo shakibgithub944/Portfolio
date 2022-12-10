@@ -3,10 +3,10 @@ import contact from '../../../assets/contact us.png'
 
 const Contact = () => {
     return (
-        <section className='bg-gray-800'>
+        <section id='contact' className='bg-gray-800'>
             <div className="p-6  text-gray-50">
                 <h1 className='text-3xl py-5 pl-10'>Contact Me</h1>
-                <form action="https://formsubmit.co/el/sinuyu" method='POST' className="container flex flex-col mx-auto space-y-12 ng-untouched ng-pristine ng-valid">
+                <form action="https://formspree.io/f/mrgdnrow" method='POST' className="container flex flex-col mx-auto space-y-12 ng-untouched ng-pristine ng-valid">
                     <fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm">
                         <div className="space-y-2 col-span-full lg:col-span-1">
                             <p className="font-medium pl-4">Send Your Query</p>

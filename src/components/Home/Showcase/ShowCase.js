@@ -6,7 +6,7 @@ import coursehut from '../../../assets/courseHut.png'
 
 const ShowCase = () => {
     return (
-        <section className='bg-gray-800'>
+        <section id='projects' className='bg-gray-800'>
             <div className='text-white ml-8'>
                 <h1 className='text-3xl py-5 pl-10'>Projects</h1>
                 <div className=' md:flex items-center justify-evenly'>

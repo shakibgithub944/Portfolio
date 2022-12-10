@@ -4,7 +4,7 @@ import '../../../App.css'
 const About = () => {
     return (
         <div className=''>
-            <section className="bg-gray-800 text-gray-100">
+            <section id='about' className="bg-gray-800 text-gray-100">
                 <div className="container max-w-5xl px-4 py-12 mx-auto">
                     <div className="grid gap-4 mx-4 sm:grid-cols-12">
                         <div className="col-span-12 sm:col-span-3">
