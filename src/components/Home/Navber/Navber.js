@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../../App.css'
-import {Link as NavLink} from 'react-scroll'
+import { Link as NavLink } from 'react-scroll'
 import resume from '../../../assets/shakibmiahResumeFullStack.pdf'
+import { Link } from 'react-router-dom';
 
 const Navber = () => {
     return (
@@ -16,6 +17,7 @@ const Navber = () => {
                             <li><NavLink to='about' spy={true} smooth={true} offset={-80} duration={1000} ><span>About Me</span></NavLink></li>
                             <li><NavLink to='projects' spy={true} smooth={true} offset={-100} duration={1000} ><span>Projects</span></NavLink></li>
                             <li><NavLink to='skills' spy={true} smooth={true} offset={50} duration={1000} ><span>Skills</span></NavLink></li>
+                            <li><Link to='/blog'><span>Blog</span></Link></li>
                         </ul>
                     </div>
                     <NavLink to='header' spy={true} smooth={true} offset={-80} duration={1000} className="normal-case text-2xl ml-8">
@@ -32,6 +34,8 @@ const Navber = () => {
                         <li><NavLink to='about' spy={true} smooth={true} offset={-80} duration={1000} ><span>About Me</span></NavLink></li>
                         <li><NavLink to='projects' spy={true} smooth={true} offset={-100} duration={1000} ><span>Projects</span></NavLink></li>
                         <li><NavLink to='skills' spy={true} smooth={true} offset={50} duration={1000} ><span>Skills</span></NavLink></li>
+                        <li><Link to='/blog'><span>Blog</span></Link></li>
+
                     </ul>
                 </div>
                 <div className="navbar-end">

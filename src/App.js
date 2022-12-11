@@ -5,6 +5,7 @@ import LaptopBazar from "./components/ProjectDetails/LaptopBazar";
 import PoseNclick from "./components/ProjectDetails/PoseNclick";
 import DoctorChamber from "./components/ProjectDetails/DoctorChamber";
 import CourseHut from "./components/ProjectDetails/CourseHut";
+import Blog from "./components/Home/Blog/Blog";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: '/courseHut',
     element: <CourseHut></CourseHut>
+  },
+  {
+    path: '/blog',
+    element: <Blog></Blog>
   },
 
 ])
