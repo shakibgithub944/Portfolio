@@ -3,11 +3,11 @@ import React from 'react';
 const Skills = () => {
     return (
         <section id='skills' className='bg-gray-800 py-8 md:py-48'>
-
-            <div className='md:grid md:grid-cols-3 px-4'>
+            <h1 className='text-3xl text-center font-bold  text-gray-400 mb-16'>Skills</h1>
+            <div className='md:grid md:grid-cols-4 px-4 gap-10'>
                 <div></div>
                 <div>
-                    <h1 className='text-3xl text-white mb-8'>Skills</h1>
+                    <h1 className='text-3xl text-white mb-8'>Front End</h1>
                     <div>
                         <p>HTML</p>
                         <progress className="progress progress-info w-86 h-3 mb-3" value="95" max="100"></progress>
@@ -19,6 +19,12 @@ const Skills = () => {
                         <progress className="progress progress-primary w-86 h-3 mb-3" value="90" max="100"></progress>
                         <p>React Js</p>
                         <progress className="progress progress-success w-86 h-3 mb-3" value="80" max="100"></progress>
+
+                    </div>
+                </div>
+                <div>
+                    <h1 className='text-3xl text-white mb-8'>Back End</h1>
+                    <div>
                         <p>JavaScript</p>
                         <progress className="progress progress-info w-86 h-3 mb-3" value="85" max="100"></progress>
                         <p>Node Js</p>
