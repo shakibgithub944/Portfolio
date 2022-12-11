@@ -3,11 +3,12 @@ import '../../../App.css';
 import Navber from '../Navber/Navber';
 import programmer2 from '../../../assets/shakib.png'
 import { FaLinkedin, FaGithubSquare, FaFacebook } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 
 const Header = () => {
     return (
-        <section className='bg-gray-800 h-screen'>
+        <section id='header' className='bg-gray-800 h-screen'>
             <Navber></Navber>
             <div className="md:grid md:grid-cols-2 gap-10 h-screen">
                 <div className=' pt-28 pl-20 md:flex items-end md:items-center md:ml-60'>
@@ -21,9 +22,9 @@ const Header = () => {
                             <a target={0} href='https://github.com/shakibgithub944' className='text-gray-600'><FaGithubSquare></FaGithubSquare></a>
                             <a target={0} href='https://www.facebook.com/nazmush.shakib.737' className='text-blue-600'><FaFacebook></FaFacebook></a>
                         </div>
-                        <a href="#contact">
+                        <Link to='contact' spy={true} smooth={true} offset={-80} duration={1000}>
                             <span className='btn btn-outline btn-info font-bold my-5'>Hire me</span>
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className='flex items-center md:ml-28'>

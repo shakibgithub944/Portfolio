@@ -1,40 +1,43 @@
 import React from 'react';
 import '../../../App.css'
+import {Link as NavLink} from 'react-scroll'
+import resume from '../../../assets/shakibmiahResumeFullStack.pdf'
+
 const Navber = () => {
     return (
         <div className='text-white '>
-            <div className="navbar">
+            <div className="navbar fixed z-50 bg-gray-800">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-gray-400 font-bold">
-                        <li><a href="#about"><span>About me</span></a></li>
-                        <li><a href="#skills"><span>Slkills</span></a></li>
-                        <li><a href="#projects"><span>Projects</span></a></li>
+                            <li><NavLink to='about' spy={true} smooth={true} offset={-80} duration={1000} ><span>About Me</span></NavLink></li>
+                            <li><NavLink to='projects' spy={true} smooth={true} offset={-100} duration={1000} ><span>Projects</span></NavLink></li>
+                            <li><NavLink to='skills' spy={true} smooth={true} offset={50} duration={1000} ><span>Skills</span></NavLink></li>
                         </ul>
                     </div>
-                    <span className="normal-case text-2xl ml-8">
+                    <NavLink to='header' spy={true} smooth={true} offset={-80} duration={1000} className="normal-case text-2xl ml-8">
                         <span className='font-bold text-sky-500'>S</span>
                         <span className='font-bold text-primary'>H</span>
                         <span className='font-bold text-green-500'>A</span>
                         <span className='font-bold text-secondary'>K</span>
                         <span className='font-bold text-accent'>I</span>
                         <span className='font-bold text-yellow-500'>B</span>
-                    </span>
+                    </NavLink>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-gray-400 font-bold">
-                        <li><a href="#about"><span>About me</span></a></li>
-                        <li><a href="#skills"><span>Slkills</span></a></li>
-                        <li><a href="#projects"><span>Projects</span></a></li>
+                        <li><NavLink to='about' spy={true} smooth={true} offset={-80} duration={1000} ><span>About Me</span></NavLink></li>
+                        <li><NavLink to='projects' spy={true} smooth={true} offset={-100} duration={1000} ><span>Projects</span></NavLink></li>
+                        <li><NavLink to='skills' spy={true} smooth={true} offset={50} duration={1000} ><span>Skills</span></NavLink></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="https://drive.google.com/file/d/1iNtBetaMpihQfYS6JoZG_VbMKjChsGSS/view?usp=sharing" target={0}>
-                        <span className="btn btn-outline btn-info text-white font-bold">Resume</span>
-                    </a>
+                    <a href={resume} download='shakibResume' target={0} className="btn btn-outline btn-info text-white font-bold">
+                        Resume</a>
+
                 </div>
             </div>
         </div>

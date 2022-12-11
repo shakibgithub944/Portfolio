@@ -3,6 +3,7 @@ import laptop from '../../../assets/laptop-bazar.png'
 import chamber from '../../../assets/doctor.png'
 import pose from '../../../assets/poseNclick.png'
 import coursehut from '../../../assets/courseHut.png'
+import { Link } from 'react-router-dom';
 
 const ShowCase = () => {
     return (
@@ -21,6 +22,11 @@ const ShowCase = () => {
                                 <a href="https://github.com/shakibgithub944/Laptop-Bazar" target={0}>
                                     <button className="btn btn-outline btn-info">gitHub</button>
                                 </a>
+
+                                <Link to='/laptopBazar'>
+                                    <span className="btn btn-outline btn-info">More details</span>
+                                </Link>
+
                                 <a href="https://laptop-bazar-a7f17.web.app/" target={0}>
                                     <button className="btn btn-outline btn-info">Live site</button>
                                 </a>
@@ -38,6 +44,9 @@ const ShowCase = () => {
                                 <a href="https://github.com/shakibgithub944/Doctor-Chamber" target={0}>
                                     <button className="btn btn-outline btn-info">gitHub</button>
                                 </a>
+                                <Link to='/doctorChamber'>
+                                    <span className="btn btn-outline btn-info">More details</span>
+                                </Link>
                                 <a href="https://doctorchamber-ae2a3.web.app/" target={0}>
                                     <button className="btn btn-outline btn-info">Live site</button>
                                 </a>
@@ -55,6 +64,9 @@ const ShowCase = () => {
                                 <a href="https://github.com/shakibgithub944/poseNclick" target={0}>
                                     <button className="btn btn-outline btn-info">gitHub</button>
                                 </a>
+                                <Link to='/poseNclick'>
+                                    <span className="btn btn-outline btn-info">More details</span>
+                                </Link>
                                 <a href="https://posenclick-2964b.web.app/" target={0}>
                                     <button className="btn btn-outline btn-info">Live site</button>
                                 </a>
@@ -72,6 +84,9 @@ const ShowCase = () => {
                                 <a href="https://github.com/shakibgithub944/CourseHut" target={0}>
                                     <button className="btn btn-outline btn-info">gitHub</button>
                                 </a>
+                                <Link to='/courseHut'>
+                                    <span className="btn btn-outline btn-info">More details</span>
+                                </Link>
                                 <a href="https://coursehut-7e4c9.web.app/" target={0}>
                                     <button className="btn btn-outline btn-info">Live site</button>
                                 </a>
