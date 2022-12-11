@@ -8,13 +8,13 @@ import { FaHandPointRight } from 'react-icons/fa';
 const LaptopBazar = () => {
     return (
         <section id='laptop-bazar' className='text-white'>
-            <h1 className='text-5xl text-center my-8'>Laptop-Bazar</h1>
+            <h1 className='text-5xl text-center my-8 font-bold text-gray-400'>Laptop-Bazar</h1>
             <h2 className='text-gray-400 p-4 md:p-10'><span className='font-bold '>Description :</span> A full stack mobile responsive project for Used Laptop Buy and sell.</h2>
             <div className='text-center my-5'>
                 <img src={header} className='w-1/2  mx-auto' alt="" />
-                <a className='font-bold m-5 btn btn-outline btn-info' href="adf"><span>View Live site</span></a>
-                <a className='font-bold m-5 btn btn-outline btn-info' href="adf"><span>Client site</span></a>
-                <a className='font-bold m-5 btn btn-outline btn-info' href="adf"><span>Server site</span></a>
+                <a href='https://laptop-bazar-a7f17.web.app/'target={0} className='font-bold m-5 btn btn-outline btn-info'><span>View Live site</span></a>
+                <a href='https://github.com/shakibgithub944/Laptop-Bazar'target={0} className='font-bold m-5 btn btn-outline btn-info'><span>Client site</span></a>
+                <a href='https://github.com/shakibgithub944/Laptop-Bazar-Server'target={0} className='font-bold m-5 btn btn-outline btn-info'><span>Server site</span></a>
             </div>
 
             <div className=' pl-4 md:pl-20'>
@@ -46,18 +46,18 @@ const LaptopBazar = () => {
             <div className=' p-4 md:p-20 md:mb-48'>
                 <h1 className='text-xl text-info my-5 font-bold'>Some section :</h1>
 
-                 <div className='my-16 md:my-20'>
-                      <h1 className='text-gray-400 text-2xl md:text-5xl font-bold'>Admin Dashboard</h1>
-                      <img src={adminDashboard} className='w-3/4 mx-auto' alt="" />
-                 </div>
-                 <div className='my-16 md:my-20'>
-                      <h1 className='text-gray-400 text-2xl md:text-5xl font-bold text-right '>Buyers Dashboard</h1>
-                      <img src={BuyerDashboard} className='w-3/4 mx-auto' alt="" />
-                 </div>
-                 <div className='my-16 md:my-20'>
-                      <h1 className='text-gray-400 text-2xl md:text-5xl font-bold text-center '>Home Page</h1>
-                      <img src={fullpic} className='w-3/4 mx-auto' alt="" />
-                 </div>
+                <div className='my-16 md:my-20'>
+                    <h1 className='text-gray-400 text-2xl md:text-5xl font-bold'>Admin Dashboard</h1>
+                    <img src={adminDashboard} className='w-3/4 mx-auto' alt="" />
+                </div>
+                <div className='my-16 md:my-20'>
+                    <h1 className='text-gray-400 text-2xl md:text-5xl font-bold text-right '>Buyers Dashboard</h1>
+                    <img src={BuyerDashboard} className='w-3/4 mx-auto' alt="" />
+                </div>
+                <div className='my-16 md:my-20'>
+                    <h1 className='text-gray-400 text-2xl md:text-5xl font-bold text-center '>Home Page</h1>
+                    <img src={fullpic} className='w-3/4 mx-auto' alt="" />
+                </div>
 
             </div>
 

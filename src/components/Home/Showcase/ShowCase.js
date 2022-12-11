@@ -19,17 +19,13 @@ const ShowCase = () => {
                             <p className='text-gray-400'>Full stack and fully responsive used laptop buy and selling website-Time period:4 days
                                 Technologies:ReactJs,NodeJs,ExpressJs,MongoDB,Firebase, JWT,Stripe ,TailwindCSS.</p>
                             <div className="card-actions justify-end">
-                                <a href="https://github.com/shakibgithub944/Laptop-Bazar" target={0}>
-                                    <button className="btn btn-outline btn-info">gitHub</button>
+                                <a href="https://laptop-bazar-a7f17.web.app/" target={0}>
+                                    <button className="btn btn-outline btn-info">Live site</button>
                                 </a>
-
                                 <Link to='/laptopBazar'>
                                     <span className="btn btn-outline btn-info">More details</span>
                                 </Link>
 
-                                <a href="https://laptop-bazar-a7f17.web.app/" target={0}>
-                                    <button className="btn btn-outline btn-info">Live site</button>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -41,15 +37,12 @@ const ShowCase = () => {
                             <p className='text-gray-400'>A full stack responsive Healthcare service provider website-Time period:4 days
                                 Technologies:ReactJs,NodeJs,ExpressJs,MongoDB,Firebase, JWT,Stripe ,TailwindCSS.</p>
                             <div className="card-actions justify-end">
-                                <a href="https://github.com/shakibgithub944/Doctor-Chamber" target={0}>
-                                    <button className="btn btn-outline btn-info">gitHub</button>
+                                <a href="https://doctorchamber-ae2a3.web.app/" target={0}>
+                                    <button className="btn btn-outline btn-info">Live site</button>
                                 </a>
                                 <Link to='/doctorChamber'>
                                     <span className="btn btn-outline btn-info">More details</span>
                                 </Link>
-                                <a href="https://doctorchamber-ae2a3.web.app/" target={0}>
-                                    <button className="btn btn-outline btn-info">Live site</button>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -61,15 +54,12 @@ const ShowCase = () => {
                             <p className='text-gray-400'>A full-stack mobile responsive project for a Photography service provider - Time period: 3 days
                                 Technologies: ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, JWT, ,Tailwind CSS</p>
                             <div className="card-actions justify-end">
-                                <a href="https://github.com/shakibgithub944/poseNclick" target={0}>
-                                    <button className="btn btn-outline btn-info">gitHub</button>
+                                <a href="https://posenclick-2964b.web.app/" target={0}>
+                                    <button className="btn btn-outline btn-info">Live site</button>
                                 </a>
                                 <Link to='/poseNclick'>
                                     <span className="btn btn-outline btn-info">More details</span>
                                 </Link>
-                                <a href="https://posenclick-2964b.web.app/" target={0}>
-                                    <button className="btn btn-outline btn-info">Live site</button>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -81,15 +71,12 @@ const ShowCase = () => {
                             <p className='text-gray-400'>A full-stack mobile responsive project for Online course seller. - Time period: 2 days
                                 Technologies: JavaScipt, ReactJs, React-Router-dom, React-tostify, React-pdf, Tailwind CSS</p>
                             <div className="card-actions justify-end">
-                                <a href="https://github.com/shakibgithub944/CourseHut" target={0}>
-                                    <button className="btn btn-outline btn-info">gitHub</button>
+                                <a href="https://coursehut-7e4c9.web.app/" target={0}>
+                                    <button className="btn btn-outline btn-info">Live site</button>
                                 </a>
                                 <Link to='/courseHut'>
                                     <span className="btn btn-outline btn-info">More details</span>
                                 </Link>
-                                <a href="https://coursehut-7e4c9.web.app/" target={0}>
-                                    <button className="btn btn-outline btn-info">Live site</button>
-                                </a>
                             </div>
                         </div>
                     </div>
