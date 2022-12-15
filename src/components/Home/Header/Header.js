@@ -4,9 +4,17 @@ import Navber from '../Navber/Navber';
 import programmer2 from '../../../assets/shakib.png'
 import { FaLinkedin, FaGithubSquare, FaFacebook } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import { useTypewriter } from 'react-simple-typewriter'
+
 
 
 const Header = () => {
+
+    const [text] = useTypewriter({
+        words: [`'m Shakib Miah`],
+        loop: 0
+      })
+
     return (
         <section id='header' className='bg-gray-800 h-screen'>
             <Navber></Navber>
@@ -14,7 +22,10 @@ const Header = () => {
                 <div className=' pt-28 pl-20 md:flex items-end md:items-center md:ml-60'>
                     <div>
                         <p className='font-bold text-cyan-500'>Hello,</p>
-                        <h1 className='text-4xl md:text-5xl font-bold text-sky-400'>I'm Shakib Miah</h1>
+                        {/* <h1 className='text-4xl md:text-5xl font-bold text-sky-400'>I'm Shakib Miah</h1> */}
+                        <h1 className='text-4xl md:text-5xl font-bold text-sky-400'>I{text}</h1>
+
+ 
                         <p className='font-bold text-gray-400 mt-2'>Full Stack Web Developer</p>
 
                         <div className='flex gap-3 mt-4'>
