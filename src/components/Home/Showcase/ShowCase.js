@@ -4,13 +4,14 @@ import chamber from '../../../assets/doctor.png'
 import pose from '../../../assets/poseNclick.png'
 import coursehut from '../../../assets/courseHut.png'
 import { Link } from 'react-router-dom';
+// import '../../../App.css'
 
 const ShowCase = () => {
     return (
         <section id='projects' className='bg-gray-800'>
             <div className='text-white ml-8'>
                 <h1 className='text-3xl py-5 pl-10'>Projects</h1>
-                <div className=' md:flex items-center justify-evenly'>
+                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10'>
 
                     <div className="card card-compact w-96 bg-base-100 shadow-xl mb-5">
                         <figure><img src={laptop} alt="Shoes" /></figure>
