@@ -8,7 +8,7 @@ const Skills = () => {
                 <div></div>
                 <div>
                     <h1 className='text-3xl text-gray-400 mb-8'>Front End</h1>
-                    <div>
+                    <div> 
                         <p>HTML</p>
                         <progress className="progress progress-info w-86 h-3 mb-3" value="95" max="100"></progress>
                         <p>CSS</p>
