@@ -9,11 +9,11 @@ import { Link } from 'react-router-dom';
 const ShowCase = () => {
     return (
         <section id='projects' className='bg-gray-800 w-screen'>
-            <div className='text-white ml-10'>
+            <div className='text-white ml-12 md:ml-10'>
                 <h1 className='text-3xl py-5 '>Projects</h1>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
 
-                    <div className="card card-compact w-80 md:w-96 bg-base-100 shadow-xl mb-5">
+                    <div className="card card-compact w-72 md:w-96 bg-base-100 shadow-xl mb-5">
                         <figure><img src={laptop} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Laptop-Bazar</h2>
@@ -31,7 +31,7 @@ const ShowCase = () => {
                         </div>
                     </div>
 
-                    <div className="card card-compact w-80 md:w-96 bg-base-100 shadow-xl mb-5">
+                    <div className="card card-compact w-72 md:w-96 bg-base-100 shadow-xl mb-5">
                         <figure><img src={chamber} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">DoctorChamber</h2>
@@ -48,7 +48,7 @@ const ShowCase = () => {
                         </div>
                     </div>
 
-                    <div className="card card-compact w-80 md:w-96 bg-base-100 shadow-xl mb-5">
+                    <div className="card card-compact w-72 md:w-96 bg-base-100 shadow-xl mb-5">
                         <figure><img src={pose} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Pose-N-Click</h2>
@@ -65,7 +65,7 @@ const ShowCase = () => {
                         </div>
                     </div>
 
-                    <div className="card card-compact w-80 md:w-96 bg-base-100 shadow-xl mb-5">
+                    <div className="card card-compact w-72 md:w-96 bg-base-100 shadow-xl mb-5">
                         <figure><img src={coursehut} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">CourseHut</h2>

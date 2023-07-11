@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Navber = () => {
     return (
-        <div className='text-white '>
+        <div className='text-white w-full'>
             <div className="navbar fixed z-50 bg-gray-800">
                 <div className="navbar-start">
                     <div className="dropdown">
