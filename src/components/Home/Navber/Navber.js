@@ -15,8 +15,9 @@ const Navber = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-gray-400 font-bold">
                             <li><NavLink to='about' spy={true} smooth={true} offset={-80} duration={1000} ><span>About Me</span></NavLink></li>
-                            <li><NavLink to='projects' spy={true} smooth={true} offset={-100} duration={1000} ><span>Projects</span></NavLink></li>
                             <li><NavLink to='skills' spy={true} smooth={true} offset={50} duration={1000} ><span>Skills</span></NavLink></li>
+                            <li><NavLink to='projects' spy={true} smooth={true} offset={-100} duration={1000} ><span>Projects</span></NavLink></li>
+                            <li><NavLink to='contact' spy={true} smooth={true} offset={50} duration={1000} ><span>Contact</span></NavLink></li>
                             <li><Link to='/blog'><span>Blog</span></Link></li>
                         </ul>
                     </div>
@@ -32,8 +33,9 @@ const Navber = () => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-gray-400 font-bold">
                         <li><NavLink to='about' spy={true} smooth={true} offset={-80} duration={1000} ><span>About Me</span></NavLink></li>
-                        <li><NavLink to='projects' spy={true} smooth={true} offset={-100} duration={1000} ><span>Projects</span></NavLink></li>
                         <li><NavLink to='skills' spy={true} smooth={true} offset={50} duration={1000} ><span>Skills</span></NavLink></li>
+                        <li><NavLink to='projects' spy={true} smooth={true} offset={-100} duration={1000} ><span>Projects</span></NavLink></li>
+                        <li><NavLink to='contact' spy={true} smooth={true} offset={50} duration={1000} ><span>Contact</span></NavLink></li>
                         <li><Link to='/blog'><span>Blog</span></Link></li>
 
                     </ul>

@@ -8,17 +8,17 @@ import { Link } from 'react-router-dom';
 
 const ShowCase = () => {
     return (
-        <section id='projects' className='bg-gray-800'>
-            <div className='text-white ml-8'>
-                <h1 className='text-3xl py-5 pl-10'>Projects</h1>
-                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10'>
+        <section id='projects' className='bg-gray-800 w-screen'>
+            <div className='text-white ml-10'>
+                <h1 className='text-3xl py-5 '>Projects</h1>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
 
-                    <div className="card card-compact w-96 bg-base-100 shadow-xl mb-5">
+                    <div className="card card-compact w-80 md:w-96 bg-base-100 shadow-xl mb-5">
                         <figure><img src={laptop} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Laptop-Bazar</h2>
                             <p className='text-gray-400'>Full stack and fully responsive used laptop buy and selling website-Time period:4 days
-                                Technologies:ReactJs,NodeJs,ExpressJs,MongoDB,Firebase, JWT,Stripe ,TailwindCSS.</p>
+                                Technologies:ReactJs,NodeJs,ExpressJs, <br></br> MongoDB,Firebase, JWT,Stripe ,TailwindCSS.</p>
                             <div className="card-actions justify-end">
                                 <a href="https://laptop-bazar-a7f17.web.app/" target={0}>
                                     <button className="btn btn-outline btn-info">Live site</button>
@@ -31,12 +31,12 @@ const ShowCase = () => {
                         </div>
                     </div>
 
-                    <div className="card card-compact w-96 bg-base-100 shadow-xl mb-5">
+                    <div className="card card-compact w-80 md:w-96 bg-base-100 shadow-xl mb-5">
                         <figure><img src={chamber} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">DoctorChamber</h2>
                             <p className='text-gray-400'>A full stack responsive Healthcare service provider website-Time period:4 days
-                                Technologies:ReactJs,NodeJs,ExpressJs,MongoDB,Firebase, JWT,Stripe ,TailwindCSS.</p>
+                                Technologies:ReactJs,NodeJs,ExpressJs, <br></br> MongoDB,Firebase, JWT,Stripe ,TailwindCSS.</p>
                             <div className="card-actions justify-end">
                                 <a href="https://doctorchamber-ae2a3.web.app/" target={0}>
                                     <button className="btn btn-outline btn-info">Live site</button>
@@ -48,7 +48,7 @@ const ShowCase = () => {
                         </div>
                     </div>
 
-                    <div className="card card-compact w-96 bg-base-100 shadow-xl mb-5">
+                    <div className="card card-compact w-80 md:w-96 bg-base-100 shadow-xl mb-5">
                         <figure><img src={pose} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Pose-N-Click</h2>
@@ -65,7 +65,7 @@ const ShowCase = () => {
                         </div>
                     </div>
 
-                    <div className="card card-compact w-96 bg-base-100 shadow-xl mb-5">
+                    <div className="card card-compact w-80 md:w-96 bg-base-100 shadow-xl mb-5">
                         <figure><img src={coursehut} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">CourseHut</h2>
