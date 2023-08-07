@@ -8,7 +8,7 @@ const Footer = () => {
             <footer className="footer items-center p-4  text-neutral-content">
                 <Link to="header" spy={true} smooth={true} offset={-80} duration={1000} className="items-center grid-flow-col">
                     <span className="normal-case text-2xl mt-20 md:mt-0 md:ml-8">
-                        <span className='font-bold text-sky-500'>S</span>
+                        <span className='font-bold text-sky-600'>S</span>
                         <span className='font-bold text-primary'>H</span>
                         <span className='font-bold text-green-500'>A</span>
                         <span className='font-bold text-secondary'>K</span>
