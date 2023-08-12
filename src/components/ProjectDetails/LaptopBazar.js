@@ -12,7 +12,7 @@ const LaptopBazar = () => {
             <h2 className='text-gray-400 p-4 md:p-10'><span className='font-bold '>Description :</span> A full stack mobile responsive project for Used Laptop Buy and sell.</h2>
             <div className='text-center my-5'>
                 <img src={header} className='w-1/2  mx-auto' alt="" />
-                <a href='https://laptop-bazar-a7f17.web.app/'target={0} className='font-bold m-5 btn btn-outline btn-info'><span>View Live site</span></a>
+                <a href='https://laptop-bazar-nu.vercel.app/'target={0} className='font-bold m-5 btn btn-outline btn-info'><span>View Live site</span></a>
                 <a href='https://github.com/shakibgithub944/Laptop-Bazar'target={0} className='font-bold m-5 btn btn-outline btn-info'><span>Client site</span></a>
                 <a href='https://github.com/shakibgithub944/Laptop-Bazar-Server'target={0} className='font-bold m-5 btn btn-outline btn-info'><span>Server site</span></a>
             </div>

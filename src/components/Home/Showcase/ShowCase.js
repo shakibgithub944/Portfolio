@@ -20,7 +20,7 @@ const ShowCase = () => {
                             <p className='text-gray-400'>Full stack and fully responsive used laptop buy and selling website-Time period:4 days
                                 Technologies:ReactJs,NodeJs,ExpressJs, <br></br> MongoDB,Firebase, JWT,Stripe ,TailwindCSS.</p>
                             <div className="card-actions justify-end">
-                                <a href="https://laptop-bazar-a7f17.web.app/" target={0}>
+                                <a href="https://laptop-bazar-nu.vercel.app/" target={0}>
                                     <button className="btn btn-outline btn-info">Live site</button>
                                 </a>
                                 <Link to='/laptopBazar'>
