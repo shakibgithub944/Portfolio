@@ -33,7 +33,7 @@ const Header = () => {
                         <Link to='contact' spy={true} smooth={true} offset={-80} duration={1000}>
                             <span className='btn btn-outline btn-info font-bold my-5'>Hire me</span>
                         </Link>
-                    </div>
+                    </div> 
                 </div>
                 <div className='flex items-center md:ml-28'>
                     <img src={programmer2} alt="" />
