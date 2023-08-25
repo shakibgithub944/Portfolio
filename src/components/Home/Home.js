@@ -8,7 +8,7 @@ import Skills from './Skills/Skills';
 
 const Home = () => {
     return (
-        <div>
+        <div style={{overflow:'hidden'}}>
             <Header></Header>
             <About></About>
             <Skills></Skills>

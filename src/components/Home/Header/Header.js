@@ -16,7 +16,7 @@ const Header = () => {
     })
 
     return (
-        <section id='header' className='bg-gray-800 h-screen w-screen'>
+        <section id='header' className='bg-gray-800'>
             <Navber></Navber>
             <div className="md:grid md:grid-cols-2 gap-10 h-screen">
                 <div className=' pt-28 pl-20 md:flex items-end md:items-center md:ml-60'>
